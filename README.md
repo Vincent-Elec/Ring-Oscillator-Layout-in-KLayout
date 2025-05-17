@@ -8,12 +8,10 @@ I built a hierarchical layout of a five-stage ring oscillator in KLayout, demons
 
 | Layer (name) | Purpose | Visualization* |
 |--------------|---------|----------------|
-| `p_implant`  | P-type active region | Red, solid |
-| `n_implant`  | N-type active region | Blue, diagonal hatch |
-| `metal`      | Top-level interconnect | Grey, solid |
-| `VIA`        | Contact openings through oxide | Dark red squares |
-
-\*Colors / patterns are just on-screen aids—you can customise them in **Layer Properties**.
+| `p_implant`  | P-type active region | Red, diagonal |
+| `n_implant`  | N-type active region | Blue, diagonal |
+| `metal`      | Top-level interconnect | Grey, diamond |
+| `VIA`        | Contact openings through oxide | Red, squares |
 
 ---
 
@@ -42,6 +40,6 @@ The five-stage ring oscillator was assembled using KLayout’s core drawing tool
 * Path for metal routing.  
 * Custom hierarchy levels to toggle between outlines and full detail.
 
-A screenshot of the final layout is included in **`docs/ring_oscillator_layout.png`**.
+A screenshot of the final layout is included in **`KLayout Ring Oscillator.png'**.
 
 
