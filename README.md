@@ -19,12 +19,20 @@ I built a hierarchical layout of a five-stage ring oscillator in KLayout, demons
 
 ## Cell Hierarchy
 
-RingOscillator (top)
-├─ transistor ← P/N implants + three ContactPads
-│ └─ ContactPad ← 1 µm metal square + VIA
-├─ interconnect_1 ← jumper between top-row devices
-├─ interconnect_2 ← jumper between bottom-row devices
-└─ interconnect_3 ← vertical bus + I/O pads
+- **RingOscillator** (top-level)
+  - **transistor**
+    - P-Implant / N-Implant regions
+    - Three **ContactPad** instances
+      - **ContactPad**
+        - 1 µm × 1 µm metal square
+        - Oxide VIA
+  - **interconnect_1**
+    - Jumper between top-row devices
+  - **interconnect_2**
+    - Jumper between bottom-row devices
+  - **interconnect_3**
+    - Vertical bus
+    - I/O pads for external connectivity
 
 
 * **ContactPad** – Ensures consistent pad and via geometry.  
