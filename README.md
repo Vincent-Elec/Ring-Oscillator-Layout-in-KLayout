@@ -1,5 +1,7 @@
 # 5-Stage Ring Oscillator Layout (KLayout)
 
+## Introduction
+
 I built a hierarchical layout of a five-stage ring oscillator in KLayout, demonstrating my proficiency with electronic design automation and microelectronics. By creating reusable cells for essential primitives such as contact pads and transistors, I streamlined the design flow and made the circuit easily scalable for future iterations. Throughout the project I managed multiple lithography layers—P-implant, N-implant, oxide vias, and metal interconnects—to mirror the actual fabrication sequence and ensure accurate layer-to-layer alignment. The result is a clean, reusable layout that captures every key fabrication step while highlighting disciplined layer management and thoughtful cell hierarchy.
 
 ---
