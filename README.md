@@ -42,6 +42,6 @@ The five-stage ring oscillator was assembled using KLayout’s core drawing tool
 * Path for metal routing.  
 * Custom hierarchy levels to toggle between outlines and full detail.
 
-A screenshot of the final layout is included in **`KLayout Ring Oscillator.png'**.
+A screenshot of the final layout is included in **`KLayout Ring Oscillator.jpg'**.
 
 
